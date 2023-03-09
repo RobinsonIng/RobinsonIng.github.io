@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos para los caracteres-->
+    <meta charset="utf-8">
+    <!-- Metadatos para asignar mi nombre-->
+    <meta name="author" content="Ing. Carlos Sanchez">
+    <!-- Metadatos para asignar la descripcion de esta pagina web, -->
+    <meta name="description" content="Presentacion del CV y Perfil del Ing. Carlos Sanchez">
+    <!-- Metadatos para asignar las palabras claves-->
+    <meta name="keywords" content="WCM, HTML, CSS, JavaScript, Proyecto, Planta, Produccion, Energia, Solar, Mantenimiento, Electrico, Electronico">
+    <!-- Metadatos para determinar com se vera la pagina en los distintos tipo/tamaños de los dispositivos que usen los clientes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Personalizo el Titulo -->
+    <title>CV Ing. Carlos Sanchez | Solar Servicios Industriales </title>
+    <!-- Introduzco mi Favicon -->
+    <link rel="icon" type="image/x-icon" href="FAVicon/favicon.ico">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- link de Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Link de ma archivo style, para personalizar los distintos elementos con CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- introduzco los link para los tipos de letra (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+ <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d7a490365e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Barra de navegacion adaptable y responsive , utilizo la responsive Behaviors -->
+    <nav  id="nav" class="navbar navbar-expand-md bg-light">
+      <!-- Container fluid es para que se ajuste al 100% del ancho de la ventana o del navegador-->
+      <div class="container-fluid"> 
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img class="img_logo" src="imagenes/logosolar.png" width="300" alt="Logo de la página web">
+          </a>
+          <!-- con justify-content-center=alineo el eje principal , y con align-items-center= alineo el eje secundarios-->
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a id="miperfil" class="nav-link active" aria-current="page" href="#sobre-mi">Mi Perfil</a> <!--el href, son enlaces internos-->
+            </li>
+            <li class="nav-item">
+              <a id="misproyectos" class="nav-link" href="#proyectos">Mis Proyectos</a> <!--el href, son enlaces internos-->
+            </li>
+          
+            <li class="nav-item">
+              <a id="contactame" class="nav-link" href="contacto/formulario.html">Contactame</a> <!--el href, son enlaces internos--> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr >
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img id="mifoto" class="hero-imagen-desarrollador img-thumbnail" src="imagenes/Papy.jpg" alt="Foto de Ing. Carlos Sanchez" >
+        <h1 id="principal" >Hola, soy el Ing. Carlos Sanchez y quiero presentarte mi CV.</h1>
+        <h2 id="secundario">Realizo set-up, check-up y start-up de Nuevas Plantas de Produccion, proyectos Electricos y Electronicos, Energia Solar, montajes y mantenimiento de Tableros Electricos y Electronicos, 
+          Sub Estaciones Transformadoras, Correccion del Factor de Potencia.<br> 
+          Doy catedra en la especialidad "Aplicacion de Nuevas Tecnologias"(area programacion) en el Instituto Tecnico IPET 363 en la carrera de Tecnicos en Programacion.<br> Ademas capacito he implemento nuevas metodologias como "Fabricacion de Clase Mundial" ( World Class Manufacturing - Capacitado en Italia)<br>
+          Actualmente estoy capacitandome como Full stack (Front-End y Back-End), proyectos IT.</h2>
+
+        </div>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-clara">
+      <div class="contenedor">
+        <h2 id="principal" class="seccion-titulo">Mi trayectoria</h2>
+        <p id="secundario" class="seccion-texto">• Especialista en Ingeniería Gerencial (MBA) - Universidad Tecnológica Nacional - Administración de Negocios<br>
+          • Ingeniero en Electrónica, Universidad Tecnológica Nacional(CBA-Argentina)<br>
+          • Project Manager, UTN, Gestión de Proyectos</p>
+     
+      <h1>Mi Perfil y enlace a linkedln</h1>
+      <center>
+        <iframe src="pdf/Profile(CarlosSanchez).pdf" frameborder="3"></iframe>
+      </center>
+      </div>
+    </section>
+    <hr >
+<!--================================Eventos===================================================-->
+<section id="links" class="informate-mas  d-flex flex-column">
+  <h2 id="principal" class="seccion-titulo">Aprovecha esta seccion</h2>
+  <div class="container text-center link-contenedor">
+    <div class="row">
+      <!-- Proyecto Bonificado-->
+      <div class="col-12 col-md-12 col-lg-12">
+        <div class="link">
+          <div class="container text-center py-5">
+            <h1 id="titulo" class="display-3 py-5"></h1>
+            <button id="boton" class="btn btn-danger">Has click 'ya!!' para conocer mi nº telefonico, y bonificaremos tu proyecto</button>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<hr >
+<!--000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+    <!-- Proyectos -->
+    <section id="proyectos" class="exitosos-proyectos  d-flex flex-column">
+      <h2 id="principal" class="seccion-titulo">Mis proyectos</h2>
+      <h3 id="secundario" class="seccion-descripcion">Estos son algunos de mis exitosos proyectos</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto Sigdopack -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img id="img-sigdo" src="imagenes/Sigdopack.jpg" alt="Proyecto-Sigdopack">
+              <div class="overlay">
+                <p id="p-proyec-titulo">Has click sobre el icono y te comento sobre el proyecto Sigdopack</p>
+                <div class="iconos-contenedor">
+              
+                  <a href="https://www.solarserviciosindustriales.com.ar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto CNH -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img id="img-cnh" src="imagenes/cnh.jpg" alt="Proyecto-CNH">
+              <div class="overlay">
+                <p id="p-proyec-titulo">Has click sobre el icono y te comento sobre el proyecto CNH</p>
+                <div class="iconos-contenedor">
+                 
+                  <a href="https://www.solarserviciosindustriales.com.ar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto IVECO -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img id="img-iveco" src="imagenes/iveco1.jpg" alt="Proyecto-Iveco">
+              <div class="overlay">
+                <p id="p-proyec-titulo">Has click sobre el icono y te comento sobre el proyecto Iveco</p>
+                <div class="iconos-contenedor">
+                 
+                  <a href="https://www.solarserviciosindustriales.com.ar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto Fiat  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="img-fiat" src="imagenes/Fiat5.jpg" alt="Proyecto-Fiat">
+              <div class="overlay">
+                <p id="p-proyec-titulo">Has click sobre el icono y te comento sobre el proyecto Fiat</p>
+                <div class="iconos-contenedor">
+                
+                 <a href="https://www.solarserviciosindustriales.com.ar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto Digitalizacion  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img id="img-digi" src="imagenes/digi3.jpg" alt="Proyecto-Digitalizacion">
+              <div class="overlay">
+                <p id="p-proyec-titulo">Has click sobre el icono y te comento sobre los proyectos de Digitalizacion</p>
+                <div class="iconos-contenedor">
+                
+                  <a href="https://www.solarserviciosindustriales.com.ar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto WCM -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img id="img-wcm" src="imagenes/WCM1.jpg" alt="Proyecto-WCM">
+              <div class="overlay">
+                <p id="p-proyec-titulo">Has click sobre el icono y te comento sobre el proyecto WCM</p>
+                <div class="iconos-contenedor">
+                  
+                  <a href="https://www.solarserviciosindustriales.com.ar/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Contacto -->
+
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/LogoDual.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">La frase o pregunta de muchos es ¿Porque?.<br>La mia es ¿Porque no?</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="/js/event2.js"></script>
+  </body>
+</html>
